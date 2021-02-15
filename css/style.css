@@ -1,0 +1,58 @@
+:root {
+    --pink: rgb(215, 121, 178);
+    --grey: rgba(111, 111, 111, 0.757);
+    --grey-bl: rgba(221, 224, 227, 0.216);
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.container{
+    padding:30px;
+    width:700px;
+    margin:0 auto;
+}
+
+.card{
+    width:640px;
+    height: 170px;
+    padding:30px;
+    background-color: white;
+}
+
+label{
+    color: rgb(42, 42, 42) !important;
+    font-size: 21px !important;
+    font-family: 'Yusei Magic', sans-serif;
+    width:640px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--pink);
+    margin-top: 40px;
+    font-family: 'Advent Pro', sans-serif !important;
+    font-size: 17px;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: var(--pink);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 30px;
+    width: 100px;
+    font-family: 'Advent Pro', sans-serif !important;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.btn:hover {
+    background-color: #d08bb5dd;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
