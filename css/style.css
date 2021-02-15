@@ -12,12 +12,12 @@ body{
 
 .container{
     padding:30px;
-    width:700px;
+    width:500px;
     margin:0 auto;
 }
 
 .card{
-    width:640px;
+    width:440px;
     height: 170px;
     padding:30px;
     background-color: white;
