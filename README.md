@@ -23,7 +23,16 @@ Para iniciar, puedes clonar cualquiera de las siguientes ramas/branches:
 **IMPORTANTE**: resolveremos este proyecto en Javascript, aquí puedes encontrar el [vídeo]().
 
 ## Tus tareas
-```en progreso```
+- [ ] Agrega un `eventListener` al elemento html `form` y crea una función que realice lo siguiente:
+- [ ] Mostrar el elemento html con id `#tarjeta-crear` y oculte el elemento html con id `#tarjeta-link`
+- [ ] Capturar el mensaje ingresado en el elemento `input`, puedes mostrarlo en la consola para verificar 😉
+- [ ] Encriptar el mensaje capturado en base64, utiliza la función `btoa()`,  ref: [mdn](https://developer.mozilla.org/es/docs/Web/API/WindowBase64/Base64_codificando_y_decodificando)
+- [ ] Agregar el mensaje encriptado al url actual, utiliza el `#` como unión de estos valores. e.g: `miurl.html#mimensajesecreto`   
+   
+Luego de que hayas completado la parte de encriptación, es el turno de desencriptar.
+- [ ] Obtener el mensaje desde el url, utiliza `windows.location`
+- [ ] Validar si existe algún mensaje encriptado luego del `#`
+- [ ] Muestra el mensaje obtenido en el elemento `h2`
 ## Vista previa
 
 - Estructura `html` y estilo con `css`, antes del código:
